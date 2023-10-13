@@ -1,5 +1,5 @@
 body {
-    background-color: #333333;
+    background-color: #252525;
 }
 
 h1 {
@@ -7,6 +7,7 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
+  text-align: center;
 }
 
 p {
