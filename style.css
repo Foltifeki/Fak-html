@@ -1,0 +1,17 @@
+body {
+    background-color: #333333;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
