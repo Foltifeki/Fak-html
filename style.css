@@ -1,47 +1,103 @@
 body {
-    background-color: #1e1e1e;
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 20px;
+  background-color: #131313;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #292929;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 .content {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+
 }
 
 h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 25px;
+  font-size: 40px;
   color: #ffffff;
   text-align: center;
-  margin-bottom: 10px;
 }
-
-h2 {
-    font-family: "Rubik", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-
-p {
-    font-family: "Lato", sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #ffffff;
-  }
 
 img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
-ul li {
-    color: white;
+.cim {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: img; width: 220px;}
+.item3 { grid-area: main; }
+  
+.grid-container {
+  color: white;
+  display: grid;
+  grid-template-areas:
+    'header header header header header img'
+    'main main main main main img';
+  gap: 1px;
+  background-color: #57c34d;
+  padding: 1px;
+  margin: auto;
+  margin-top: 30px;
+}
+  
+.grid-container > div {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 20px 20px;
+
+}
+
+@media (min-width: 1300px) {
+  .grid-container {
+    width: 1300px;
   }
+}
+  
+@media (max-width: 1300px) {
+  .grid-container {
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: #292929;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
