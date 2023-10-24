@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #746106;
+    background-color: #1e0938;
     padding: 10px;
     text-align: center;
     margin: auto;
@@ -71,7 +71,7 @@ body {
       'header header header header header img'
       'main main main main main img';
     gap: 1px;
-    background-color: #867307;
+    background-color: #420786;
     padding: 1px;
     margin: auto;
     margin-top: 30px;
@@ -97,7 +97,7 @@ body {
   }
   
   footer {
-    background-color: #746106;
+    background-color: #1e0938;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
