@@ -86,16 +86,46 @@ body {
   
   @media (min-width: 1100px) {
     .grid-container {
-      width: 1100px;
+      width: 100%;
     }
+  }
+
+  @media (max-width: 1258px) {
+    .grid-container {
+      width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 32px;
+      }
   }
     
   @media (max-width: 1100px) {
     .grid-container {
       width: 100%;
     }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 45px;
+      }
+  }
+
+  @media (max-width: 633px) {
+    .grid-container {
+      width: 100%;
+    }
   }
   
+  @media (max-width: 545px) {
+    .grid-container {
+      width: 100%;
+    }
+  }
+
   footer {
     background-color: #1e0938;
     padding: 20px;
