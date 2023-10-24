@@ -3,27 +3,28 @@ body {
   margin: 0 auto;
   width: 80%;
   margin-top: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 header {
-  background-color: #292929;
+  background-color: #146715;
   padding: 10px;
   text-align: center;
   margin: auto;
   width: 50%;
+  border-radius: 20px;
 }
 
 .text {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 20px;
   text-align: center;
 }
 
 .text2 {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 24px;
   margin-top: 20px;
 }
 
@@ -46,7 +47,7 @@ img {
 }
 
 .cim {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   margin: auto;
 }
@@ -54,7 +55,7 @@ img {
 p {
   color: white;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   width: 90%;
   margin: auto;
 }
@@ -96,8 +97,10 @@ p {
 }
 
 footer {
-  background-color: #292929;
+  background-color: #146715;
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
